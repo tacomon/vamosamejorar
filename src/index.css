@@ -1,23 +1,22 @@
-/* 1. Fuentes de Google: Asegúrate de que los nombres de las fuentes aquí coincidan con los de tu tailwind.config.js */
+/* Fuentes de Google: Asegúrate de que los nombres de las fuentes aquí coincidan con los de tu tailwind.config.js */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap');
 
 
-/* 2. Tailwind CSS: Las directivas fundamentales de Tailwind */
-@tailwind base;
+/* Tailwind CSS: Las directivas fundamentales de Tailwind */
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
 
-/* 3. PrimeReact CSS: Importar el tema y los estilos base */
-/* - Elige el tema que mejor se adapte a tu diseño o el que sea compatible con Tailwind (ej. lara-light-blue) */
-/* - Opcionalmente, puedes usar "primereact/resources/primereact.min.css" solo para los estilos "unstyled" */
+/* PrimeReact CSS */
 @import "primereact/resources/themes/lara-light-blue/theme.css";
-/* Estilos base de PrimeReact (necesario incluso con un tema) */
+/* Estilos base de PrimeReact*/
 @import "primereact/resources/primereact.min.css";
 
 
-/* 4. PrimeIcons y PrimeFlex (si los instalaste y los vas a usar) */
+/* PrimeIcons y PrimeFlex (si los instalaste y los vas a usar) */
 @import "primeicons/primeicons.css";
-/* @import "primeflex/primeflex.css"; */ /* Descomenta si lo instalaste y lo usas */
+/* PrimeFlex para utilidades de diseño */
+/* @import "primeflex/primeflex.css"; */
 
 
 :root {
@@ -26,8 +25,8 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: rgba(26, 26, 26, 0.87);
+  background-color: #ffffff;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -79,7 +78,7 @@ button:focus-visible {
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
-    background-color: #ffffff;
+    background-color: #333333;
   }
   a:hover {
     color: #747bff;
